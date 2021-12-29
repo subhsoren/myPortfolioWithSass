@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: sf-mono;
+    src: url(../fonts/SFMono.ttf);
+}
+@font-face {
+    font-family: calibre;
+    src: url(../fonts/CalibreRegular.otf);
+}
+body{
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: calibre;
+    font-weight: 200;
+}
+::before, ::after{
+    box-sizing: border-box;
+}
+.section{
+    background: $bg-black-900;
+    min-height: 100vh;
+    display: block;
+    position: fixed;
+    left: 270px;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    opacity: 1;
+}
+ul{
+    list-style: none;
+}

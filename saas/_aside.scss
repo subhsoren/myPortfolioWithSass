@@ -1,0 +1,120 @@
+
+.aside {
+    width: 270px;
+    background: $bg-black-100;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height:100%;
+    z-index: 10;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid $bg-black-50;
+    .logo{
+        position: absolute;
+        top: 50px;
+        font-size: 30px;
+        text-transform: capitalize;
+        a{
+            color: $text-black-900;
+            font-weight: 700;
+            padding: 15px 20px;
+            font-size: 30px;
+            letter-spacing:3px;
+            position: relative;
+            &:before{
+                content: " ";
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                border-bottom: 5px solid $skin-color;
+                border-left: 5px solid $skin-color;
+                bottom: 0;
+                left: 0;
+            }
+             &:after{
+                content: " ";
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                border-top: 5px solid $skin-color;
+                border-right: 5px solid $skin-color;
+                top: 0;
+                right: 0;
+            }
+            span{
+                font-family: 'Clicker Script', cursive;
+                font-size: 40px;
+            }
+        }
+
+    }
+    .nav-toggler{
+        height: 40px;
+        width: 45px;
+        border: 1px solid $bg-black-50;
+        cursor: pointer;
+        position: fixed;
+        left: 300px;
+        top: 20px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        background: $bg-black-100;
+        display: flex;
+        align-items: center;
+        span{
+            height: 2px;
+            width: 18px;
+            background: $skin-color;
+            display: inline-block;
+            position: relative;
+            &::before{
+                content:'';
+                position: absolute;
+                height: 2px;
+                width: 18px;
+                background: $skin-color;
+                top: -6px;
+                left: 0;
+            }
+                &::after{
+                content:'';
+                position: absolute;
+                height: 2px;
+                width: 18px;
+                background: $skin-color;
+                top: 6px;
+                left: 0;
+            }
+        }
+}
+    .nav {
+        margin-top: 50px;
+        li{
+            margin-bottom: 20px;
+            a{
+                font-size: 16px;
+                font-weight: 600;
+                display: block;
+                font-family: sf-mono;
+                border-bottom: 1px solid $bg-black-50;
+                padding: 5px 15px;
+                &.active{
+                    color: $skin-color;
+                }
+                i{
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+
+  
+    
+}
+  
