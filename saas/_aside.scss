@@ -65,8 +65,9 @@
         -ms-border-radius: 5px;
         -o-border-radius: 5px;
         background: $bg-black-100;
-        display: flex;
+        display: none;
         align-items: center;
+        justify-content: center;
         span{
             height: 2px;
             width: 18px;

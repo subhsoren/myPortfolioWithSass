@@ -34,16 +34,67 @@ body {
   background: #f2f2fc;
   min-height: 100vh;
   display: block;
-  position: fixed;
-  left: 270px;
-  top: 0;
-  right: 0;
-  z-index: 0;
   opacity: 1;
+  padding: 0 30px;
+}
+
+.main-content {
+  padding-left: 270px;
+}
+
+.p-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  position: relative;
 }
 
 ul {
   list-style: none;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 35px;
+  background: #ec1839;
+  color: #fff;
+  display: inline-block;
+  border: none;
+  white-space: nowrap;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
 }
 
 .aside {
@@ -124,12 +175,13 @@ ul {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   background: #fdf9ff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .aside .nav-toggler span {
@@ -183,5 +235,87 @@ ul {
 
 .aside .nav li a i {
   margin-right: 20px;
+}
+
+.home {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #302e4d;
+}
+
+.home .home-info {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+  max-width: 60%;
+}
+
+.home .home-info .hello {
+  font-size: 28px;
+  margin: 15px 0;
+}
+
+.home .home-info .hello span {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ec1839;
+  font-family: 'Clicker Script', cursive;
+}
+
+.home .home-info .my-profession {
+  font-size: 30px;
+  margin: 15px 0;
+}
+
+.home .home-info .my-profession .typing {
+  color: #ec1839;
+}
+
+.home .home-info p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.home .home-img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  max-width: 40%;
+  position: relative;
+  text-align: center;
+}
+
+.home .home-img::after {
+  content: "";
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-bottom: 10px solid #ec1839;
+  border-right: 10px solid #ec1839;
+  right: 20px;
+  bottom: -40px;
+}
+
+.home .home-img::before {
+  content: "";
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-top: 10px solid #ec1839;
+  border-left: 10px solid #ec1839;
+  left: -20px;
+  top: -40px;
+}
+
+.home .home-img img {
+  height: 400px;
+  margin: auto;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 /*# sourceMappingURL=main.css.map */
