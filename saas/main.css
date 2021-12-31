@@ -30,6 +30,10 @@ body {
           box-sizing: border-box;
 }
 
+.hidden {
+  display: none !important;
+}
+
 .section {
   background: #f2f2fc;
   min-height: 100vh;
@@ -51,6 +55,47 @@ body {
   max-width: 1100px;
   width: 100%;
   margin: auto;
+}
+
+.section .container {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.section-title {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+
+.section-title h2 {
+  font-size: 40px;
+  color: #302e4d;
+  font-weight: 700;
+  position: relative;
+}
+
+.section-title h2::before {
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 50px;
+  background-color: #ec1839;
+  top: 100%;
+  left: 0;
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 25px;
+  background-color: #ec1839;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
 }
 
 .row {
@@ -317,5 +362,131 @@ ul {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+
+.about .about-content {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.about .about-content .about-text {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.about .about-content .about-text h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: #302e4d;
+}
+
+.about .about-content .about-text h3 span {
+  color: #ec1839;
+}
+
+.about .about-content .about-text p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #504e70;
+  font-weight: 500;
+}
+
+.about .about-content .personal-info {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+  max-width: 60%;
+  margin-top: 50px;
+}
+
+.about .about-content .personal-info .info-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.about .about-content .personal-info .info-item p {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 0;
+  color: #302e4d;
+  border-bottom: 1px solid #e8dfec;
+  font-family: sf-mono;
+}
+
+.about .about-content .personal-info .info-item p span {
+  color: #504e70;
+  font-weight: 500;
+  margin-left: 4px;
+  font-family: calibre;
+  display: inline-block;
+}
+
+.about .about-content .skills {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  max-width: 40%;
+  margin-top: 50px;
+}
+
+.about .about-content .buttons {
+  margin-top: 30px;
+}
+
+.about .about-content .skill-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.about .about-content .skill-item h5 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #302e4d;
+  text-transform: capitalize !important;
+}
+
+.about .about-content .skill-item .progress {
+  background-color: #e8dfec;
+  height: 7px;
+  width: 100%;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  position: relative;
+}
+
+.about .about-content .skill-item .progress-in {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #ec1839;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.about .about-content .skill-item .skill-percent {
+  position: absolute;
+  top: -40px;
+  color: #302e4d;
+  right: 0;
+  font-weight: 400;
+  line-height: 40px;
 }
 /*# sourceMappingURL=main.css.map */

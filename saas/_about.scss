@@ -1,0 +1,102 @@
+.about {
+    .about-content{
+        flex: 0 0 100%;
+        max-width: 100%;
+       .about-text {
+           flex: 0 0 100%;
+           max-width: 100%;
+          h3{
+              font-size: 24px;
+              margin-bottom: 15px;
+              font-weight: 700;
+              color: $text-black-900;
+              span {
+                  color: $skin-color;
+              }
+          }
+          p{
+              font-size: 16px;
+              line-height: 25px;
+              color: $text-black-700;
+              font-weight: 500;
+          }
+       }
+       .personal-info {
+           flex: 0 0 60%;
+           max-width: 60%;
+           margin-top: 50px;
+           .info-item {
+               flex: 0 0 50%;
+               max-width: 50%;
+               p{
+                   font-size: 16px;
+                   font-weight: 600;
+                   padding: 10px 0;
+                   color: $text-black-900;
+                   border-bottom: 1px solid $bg-black-50;
+                   font-family: sf-mono;
+                   span {
+                       color: $text-black-700;
+                       font-weight: 500;
+                       margin-left: 4px;
+                       font-family: calibre;
+                       display: inline-block;
+                   }
+
+
+               }
+           }
+       }
+       .skills {
+           flex: 0 0 40%;
+           max-width: 40%;
+           margin-top: 50px;
+       }
+       .buttons {
+           margin-top: 30px;
+       }
+       .skill-item {
+           flex: 0 0 100%;
+           max-width: 100%;
+           margin-bottom: 30px;
+           h5 {
+               font-size: 16px;
+               font-weight: 600;
+               line-height: 40px;
+               color: $text-black-900;
+               text-transform: capitalize !important;
+           }
+           .progress {
+               background-color: $bg-black-50;
+               height:7px;
+               width:100%;
+               border-radius: 4px;
+               -webkit-border-radius: 4px;
+               -moz-border-radius: 4px;
+               -ms-border-radius: 4px;
+               -o-border-radius: 4px;
+               position: relative;
+}
+.progress-in {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: $skin-color;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.skill-percent {
+    position: absolute;
+    top: -40px;
+    color: $text-black-900;
+    right: 0;
+    font-weight: 400;
+    line-height: 40px;
+}
+       }
+    }
+}
