@@ -445,7 +445,7 @@ ul {
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
   max-width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .about .about-content .skill-item h5 {
@@ -488,5 +488,41 @@ ul {
   right: 0;
   font-weight: 400;
   line-height: 40px;
+}
+
+.about .about-content .education, .about .about-content .experience {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  max-width: 50%;
+  margin-top: 30px;
+}
+
+.about .about-content .education h3, .about .about-content .experience h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #302e4d;
+}
+
+.about .about-content .timeline-box {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
+  background-color: red;
+}
+
+.about .about-content .timeline-box .timeline {
+  background-color: #fdf9ff;
+  padding: 30px 15px;
+  border: 1px solid #e8dfec;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: relative;
 }
 /*# sourceMappingURL=main.css.map */
