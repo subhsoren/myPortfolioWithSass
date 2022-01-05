@@ -590,6 +590,10 @@ ul {
   color: #504e70;
 }
 
+.services {
+  padding-bottom: 40px;
+}
+
 .services .service-item {
   margin-bottom: 30px;
   max-width: 33.33%;
@@ -659,5 +663,53 @@ ul {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 15px;
+  color: #302e4d;
+}
+
+.services .service-item .service-item-inner p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #504e70;
+}
+
+.projects .container {
+  margin-bottom: 40px;
+}
+
+.projects .project-heading {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.projects .project-heading h2 {
+  color: #302e4d;
+  font-weight: 500;
+}
+
+.projects .project-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.33%;
+          flex: 0 0 33.33%;
+  max-width: 33.33%;
+  margin-bottom: 30px;
+}
+
+.projects .project-item .project-item-inner {
+  border: 6px solid #fdf9ff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.projects .project-item .project-item-inner img {
+  width: 100%;
+  display: block;
 }
 /*# sourceMappingURL=main.css.map */
