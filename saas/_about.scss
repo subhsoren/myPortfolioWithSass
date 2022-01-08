@@ -182,8 +182,12 @@
 }
        }
      
-      
     }
       
-     
+}
+
+@media (max-width: 1199px) {
+    .about .about-content .personal-info .info-item p span {
+        display: block;
+    }
 }

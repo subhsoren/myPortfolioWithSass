@@ -115,7 +115,13 @@
         }
     }
 
-  
-    
 }
   
+@media (max-width: 1199px) {
+    .aside {
+        left: -270px;
+    }
+    .main-content {
+        padding-left: 0;
+    }
+}
