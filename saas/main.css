@@ -378,6 +378,18 @@ ul {
   -o-border-radius: 5px;
 }
 
+@media (max-width: 991px) {
+  .home .home-img {
+    display: none;
+  }
+  .home .home-info {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
 .about .about-content {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 100%;
@@ -602,6 +614,29 @@ ul {
 @media (max-width: 1199px) {
   .about .about-content .personal-info .info-item p span {
     display: block;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .about .about-content .personal-info {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .about .about-content .skills {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .about .about-content .education,
+  .about .about-content .experience {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
   }
 }
 
@@ -687,6 +722,24 @@ ul {
   color: #504e70;
 }
 
+@media (max-width: 991px) {
+  .services .service-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .services .service-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
 .projects .container {
   margin-bottom: 40px;
 }
@@ -726,6 +779,24 @@ ul {
 .projects .project-item .project-item-inner img {
   width: 100%;
   display: block;
+}
+
+@media (max-width: 991px) {
+  .projects .project-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .projects .project-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 
 .contact .contact-title {
@@ -827,5 +898,24 @@ ul {
 
 .contact .contact-form textarea.form-control {
   height: 140px;
+}
+
+@media (max-width: 991px) {
+  .contact .contact-info-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact .contact-info-item,
+  .contact .contact-form .col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

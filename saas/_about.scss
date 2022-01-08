@@ -189,5 +189,24 @@
 @media (max-width: 1199px) {
     .about .about-content .personal-info .info-item p span {
         display: block;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .about .about-content .personal-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+    .about .about-content .skills {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .about .about-content .education,
+     .about .about-content .experience
+     {
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }

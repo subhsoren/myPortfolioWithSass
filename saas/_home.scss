@@ -65,3 +65,13 @@
         -o-border-radius: 5px;
 }
 }
+
+@media (max-width: 991px) {
+    .home .home-img {
+        display: none;
+    }
+    .home .home-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

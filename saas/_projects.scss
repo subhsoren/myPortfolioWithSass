@@ -32,3 +32,17 @@
 }
     }
 }
+
+@media (max-width: 991px) {
+    .projects .project-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .projects .project-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
