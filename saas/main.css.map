@@ -10,7 +10,11 @@
         "_about.scss",
         "_services.scss",
         "_projects.scss",
-        "_contact.scss"
+        "_contact.scss",
+        "_color-2.scss",
+        "_color-3.scss",
+        "_color-4.scss",
+        "_color-5.scss"
     ],
     "names": [],
     "file": "main.css"
