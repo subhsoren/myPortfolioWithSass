@@ -969,7 +969,57 @@ ul {
   top: 55px;
 }
 
-.style-switcher .style-switcher-togller {
+.style-switcher .style-switcher-toggler {
   top: 0;
+}
+
+.style-switcher .style-switcher h4 {
+  margin: 0 0 10px;
+  color: #504e70;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.style-switcher .colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.style-switcher .colors span {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.style-switcher .color1 {
+  background: #ec1839;
+}
+
+.style-switcher .color2 {
+  background: #fa5b0f;
+}
+
+.style-switcher .color3 {
+  background: #37b182;
+}
+
+.style-switcher .color4 {
+  background: #1854b4;
+}
+
+.style-switcher .color5 {
+  background: #f021b2;
 }
 /*# sourceMappingURL=main.css.map */
