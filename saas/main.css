@@ -516,7 +516,8 @@ ul {
   line-height: 40px;
 }
 
-.about .about-content .education, .about .about-content .experience {
+.about .about-content .education,
+.about .about-content .experience {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
           flex: 0 0 50%;
@@ -524,7 +525,8 @@ ul {
   margin-top: 30px;
 }
 
-.about .about-content .education h3, .about .about-content .experience h3 {
+.about .about-content .education h3,
+.about .about-content .experience h3 {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 30px;
@@ -562,7 +564,7 @@ ul {
 }
 
 .about .about-content .timeline-box .timeline .timeline-item::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 1px;
   height: 100%;
