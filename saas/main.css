@@ -944,6 +944,10 @@ ul {
   -o-transform: translateX(100%);
 }
 
+.style-switcher.open {
+  color: red;
+}
+
 .style-switcher .s-icon {
   position: absolute;
   height: 40px;
